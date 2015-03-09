@@ -1,84 +1,46 @@
 /*
-*/
-#include <iostream>
-#include <string>
-#include <algorithm>
-using namespace std;
-
+ * the water capicity at position i is decided by the two higher walls besides the two sides of i,
+ * first, find the highest wall.
+ * second , calculate water capicity in every position from the start and the end to the highest wall.
+ * third, if the value in positon i is small than max in its left or right, then it can contain (max - A[i]) water.
+ *        else, it can not contain any water in position i, update the max.
+ */
 class Solution {
 public:
-    string add(string num1, string num2) {
-        if (num1.size() == 0)
-            return num2;
-        if (num2.size() == 0)
-            return num1;
+    int trap(int A[], int n) {
 
-        reverse(num1.begin(), num1.end());
-        reverse(num2.begin(), num2.end());
+        int maxid = 0;
+        int water = 0;
 
-        string strRet = "";
-        int over = 0;
-        int len = (num1.size() > num2.size()) ? num2.size() : num1.size();
+        int max = A[0];
 
-        int i = 0;
-        for (i = 0; i < len; i ++) {
-            int sum = (int)(num1[i] - '0') + (int)(num2[i] - '0') + over;
-            char ch = sum % 10 + '0';
-            strRet = strRet + ch;
-            over = sum / 10;
+        for (int i = 0; i < n; i ++) {
+            if (A[i] > max) {
+                max = A[i];
+                maxid = i;
+            }
         }
 
-        for (; i < num1.size(); i ++) {
-            int sum = (int)(num1[i] - '0') + over;
-            char ch = sum % 10 + '0';
-            strRet = strRet + ch;
-            over = sum / 10;
+        max = A[0];
+        for (int i = 0; i < maxid; i ++) {
+            if (A[i] > max) {
+                max = A[i];
+            }
+            else {
+                water += max - A[i];
+            }
         }
 
-        for (; i < num2.size(); i ++) {
-            int sum = (int)(num2[i] - '0') + over;
-            char ch = sum % 10 + '0';
-            strRet = strRet + ch;
-            over = sum / 10;
+        max = A[n - 1];
+
+        for (int i = n - 1; i > maxid; i --) {
+            if (A[i] > max) {
+                max = A[i];
+            }
+            else {
+                water += max - A[i];
+            }
         }
-
-        if (over)
-            strRet += "1";
-        reverse(strRet.begin(), strRet.end());
-        return strRet;
-    }
-
-    string mul(string num1, int num2, int zero) { // num is multiple number, num2 is an single number, and zero is the num of '0' to add at the end.
-        string str = "0";
-        if (num2 == 0)
-            return "0";
-        if (num1 == "0")
-		return "0";
-        
-        for (int i = 0; i < num2; i ++)
-            str = add(str,num1);
-
-        for (int i = 0; i < zero; i ++)
-           str += "0";
-       return str;
-    }
-
-    string multiply(string num1, string num2) {
-
-        string ret = "0";
-
-        for (int i = num2.size() - 1; i >= 0; i --) {
-            string temp = mul(num1, num2[i] - '0', num2.size() - 1 - i);
-            ret = add(ret, temp);
-        }
-        return ret;
+        return water;
     }
 };
-
-int main() 
-{
-        Solution s;
-        cout << s.multiply("0", "52") << endl;
-
-	return 0;
-}
