@@ -1,18 +1,15 @@
 class Solution {
 public:
-    vector<vector<int> > generate(int numRows) {
-        vector<vector<int> > ret;
-        if (numRows == 0)
-            return ret;
-        ret.push_back(vector<int>(1,1));
-        for (int i = 2; i <= numRows; i ++) {
-            vector<int> v(i);
-            v[0] = 1;
-            v[i - 1] = 1;
-            for (int j = 1; j < i - 1; j ++)
-                v[j] = ret[i - 2][j - 1] + ret[i - 2][j];
-            ret.push_back(v);;
+    vector<int> getRow(int rowIndex) {
+        vector<int> v;
+        v.push_back(1);
+        if (rowIndex == 0)
+            return v;
+        for (int i = 1; i <= rowIndex; i ++) {
+            v.push_back(1);
+            for (int j = i - 1; j >0; j --)
+                v[j] = v[j] + v[j - 1];
         }
-        return ret;
+        return v;
     }
 };
