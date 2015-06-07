@@ -1,3 +1,7 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
 class Solution {
 public:
     string minWindow(string S, string T) {
@@ -34,3 +38,10 @@ public:
         return startIndex == -1 ? "" : S.substr(startIndex, minWindow);
     }
 };
+
+int main()
+{
+	Solution s;
+	cout << s.minWindow("TRT", "TRTT") << endl;
+	return 0;
+}
