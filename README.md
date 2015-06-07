@@ -10,7 +10,7 @@ Completed in June 7, 2015.
 
 |	 **Number**	|	**Title**	|	**Solution**	|
 |	----	|  ---------    |  ----------  |  -------- |
-|	001	|	[Two Sum](https://leetcode.com/problems/two-sum/)	|	[1.cpp](https://github.com/tianmn2109/leetcode/blob/master/1/1.cpp)	|
+|	001	|	[Two Sum](https://leetcode.com/problems/two-sum/)	|	[1.cpp](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/1/1.cpp)	|
 |	002	|	[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)	|	[2.cpp](https://github.com/tianmn2109/leetcode/blob/master/2/2.cpp)	|
 |	003	|	[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)	|	[3.cpp](https://github.com/tianmn2109/leetcode/blob/master/3/3.cpp)	|
 |	004	|	[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)	|	[4.cpp](https://github.com/tianmn2109/leetcode/commit/eaf70cdaf26f6b9770a239f6fd4fcde76e2f6714)	|
