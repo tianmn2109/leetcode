@@ -207,3 +207,4 @@ Completed in June 7, 2015.
 |	220	|	[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)	|	[220.cpp]()	|
 |	221	|	[Maximal Square ](https://leetcode.com/problems/maximal-square/)	|	[221.cpp]()	|
 |	222	|	[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)	|	[222.cpp]()	|
+|	222	|	[Rectangle Area](https://leetcode.com/problems/rectangle-area/)	|	[223.cpp]()	|
