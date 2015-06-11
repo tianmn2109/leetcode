@@ -4,6 +4,7 @@ These are codes of solution to problems in [leetcode](https://www.leetcode.com).
 They help me improve my ability of algorithms for preparing finding job. These codes are
 written by myself including some referring to the answers in the Internet, so the solution 
 may not be the optimal. Some of the problems are provided with more than one solutions.
+I will continue updating the codes if new problems are added.
 
 Completed in June 7, 2015.
 
