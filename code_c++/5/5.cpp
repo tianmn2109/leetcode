@@ -44,4 +44,7 @@ public:
             
             
         }
+	return s.substr(pos, max);
+    }
+};
 
