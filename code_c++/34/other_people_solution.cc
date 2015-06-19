@@ -1,4 +1,4 @@
-// 1
+// 1 is not this problem's answer.
 class Solution {
 public:
     int search(int A[], int n, int target) {
