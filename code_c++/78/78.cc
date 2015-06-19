@@ -11,8 +11,7 @@ public:
             int len = v.size(); 
             temp.clear();
             for (int j = 0; j < len; j ++) {
-                if (v[j].size() != 0)
-                    temp = v[j];
+                temp = v[j];
                 temp.push_back(S[i]);
                 v.push_back(temp);
             }
