@@ -12,7 +12,6 @@ public:
         }
         for (int i = num.size() - 1; i >= 0; i --)
         {
-            swap(num[num.size() - 1], num[i]);
             v.push_back(num[num.size() - 1]);
             num.pop_back();
             com(ret, num, v, k - 1);
