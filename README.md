@@ -214,3 +214,4 @@ Completed in June 7, 2015.
 |	226	|	[Invert Binary Tree ](https://leetcode.com/problems/invert-binary-tree/)	|	[226.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/226/226.cc)	|
 |	227	|	[Basic Calculator II ](https://leetcode.com/problems/basic-calculator-ii/)	|	[227.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/227/227.cc)	|
 |	228	|	[Summary Ranges](https://leetcode.com/problems/summary-ranges/)	|	[228.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/228/228.cc)	|
+|	229	|	[Majority Element II ](https://leetcode.com/problems/majority-element-ii/)	|	[229.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/229/229.cc)	|
