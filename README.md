@@ -217,5 +217,5 @@ Completed in June 7, 2015.
 |	229	|	[Majority Element II ](https://leetcode.com/problems/majority-element-ii/)	|	[229.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/229/229.cc)	|
 |	230	|	[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)	|	[230.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/230/230.cc)	|
 |	231	|	[Power of Two ](https://leetcode.com/problems/power-of-two/)	|	[231.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/231/231.cc)	|
-|	232|	|	[Implement Queue using Stacks ](https://leetcode.com/problems/implement-queue-using-stacks/)	|	[232.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/232/232.cc)	|
-|	233|	|	[Number of Digit One ](https://leetcode.com/problems/number-of-digit-one/)	|	[233.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/233/233.cc)	|
+|	232	|	[Implement Queue using Stacks ](https://leetcode.com/problems/implement-queue-using-stacks/)	|	[232.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/232/232.cc)	|
+|	233	|	[Number of Digit One ](https://leetcode.com/problems/number-of-digit-one/)	|	[233.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/233/233.cc)	|
