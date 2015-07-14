@@ -9,6 +9,7 @@ I will continue updating the codes if new problems are added.
 Completed in June 7, 2015.
 
 
+
 |	 **Number**	|	**Title**	|	**Solution**	|
 |	----	|  ---------    |  ----------  |  -------- |
 |	001	|	[Two Sum](https://leetcode.com/problems/two-sum/)	|	[1.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/1/1.cpp)	|
