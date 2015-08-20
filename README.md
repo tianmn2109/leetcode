@@ -231,5 +231,5 @@ Completed in June 7, 2015.
 |	257	|	[Binary Tree Paths ](https://leetcode.com/problems/binary-tree-paths/)	|	[257.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/257/257.cc)	|
 |	258	|	[Add Digits](https://leetcode.com/problems/add-digits/)	|	[258.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/258/258.cc)	|
 |	263	|	[Ugly Number ](https://leetcode.com/problems/ugly-number/)	|	[263.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/263/263.cc)	|
-|	2643	|	[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)	|	[264.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/264/264.cc)	|
+|	264	|	[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)	|	[264.cc](https://github.com/tianmn2109/leetcode/blob/master/code_c%2B%2B/264/264.cc)	|
 
